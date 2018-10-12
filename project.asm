@@ -1,2 +1,3 @@
 .text
-  main:
+	main:
+		li $v0, 11
