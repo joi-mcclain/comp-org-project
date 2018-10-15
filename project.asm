@@ -12,3 +12,8 @@
 		syscall
 		sub $a0, 4   # 4
 		syscall
+		sub $a0, 2   # 2
+		syscall      # 2
+		syscall
+		sub $a0, 1   # 1
+		syscall
