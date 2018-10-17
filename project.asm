@@ -23,3 +23,9 @@
 		addi $v0, 10
 		addi $a0, 7    # [new line] (10)
 		syscall
+		addi $a0, 67   # M (77)
+		syscall
+		addi $a0, 22   # c (99)
+		syscall
+		sub $a0, 32    # C (67)
+		syscall
