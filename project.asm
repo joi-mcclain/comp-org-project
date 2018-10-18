@@ -29,3 +29,9 @@
 		syscall
 		sub $a0, 32    # C (67)
 		syscall
+		addi $a0, 41   # l (108)
+		syscall
+		sub $a0, 11    # a (97)
+		syscall
+		addi $a0, 8    # i (105)
+		syscall
