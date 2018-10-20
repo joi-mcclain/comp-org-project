@@ -35,3 +35,9 @@
 		syscall
 		addi $a0, 8    # i (105)
 		syscall
+		addi $a0, 5    # n (110)
+		syscall
+		sub $a0, 66    # , (44)
+		syscall
+		sub $a0, 12    # [space] (32)
+		syscall
