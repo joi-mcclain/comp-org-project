@@ -17,7 +17,6 @@
 		syscall
 		sub $a0, 1     # 1
 		syscall
-		syscall
 		addi $a0, 2    # 3
 		syscall
 		addi $v0, 10
@@ -46,4 +45,6 @@
 		addi $a0, 37   # o (111)
 		syscall
 		sub $a0, 6     # i (105)
+		syscall
+		li $v0, 10
 		syscall
